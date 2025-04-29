@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { homeAction } from "./action";
+import { homeAction } from "#app/action";
 
 export default async function Home() {
   await homeAction();

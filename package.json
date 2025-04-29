@@ -16,6 +16,12 @@
     "react-dom": "^19.0.0",
     "server-only": "^0.0.1"
   },
+  "imports": {
+    "#*action":{
+      "storybook":"./src/*action.mock.ts",
+      "default":"./src/*action.ts"
+    }
+  },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.6",
     "@eslint/eslintrc": "^3",
